@@ -13,6 +13,8 @@
 		386231F2273404B7003E3186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386231F0273404B7003E3186 /* Main.storyboard */; };
 		386231F4273404B8003E3186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386231F3273404B8003E3186 /* Assets.xcassets */; };
 		386231F7273404B8003E3186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386231F5273404B8003E3186 /* LaunchScreen.storyboard */; };
+		386231FF273405A1003E3186 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386231FE273405A1003E3186 /* Course.swift */; };
+		3862320127340F59003E3186 /* SelectedCoursesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862320027340F59003E3186 /* SelectedCoursesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		386231F3273404B8003E3186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		386231F6273404B8003E3186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		386231F8273404B8003E3186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386231FE273405A1003E3186 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		3862320027340F59003E3186 /* SelectedCoursesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCoursesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				386231F3273404B8003E3186 /* Assets.xcassets */,
 				386231F5273404B8003E3186 /* LaunchScreen.storyboard */,
 				386231F8273404B8003E3186 /* Info.plist */,
+				386231FE273405A1003E3186 /* Course.swift */,
+				3862320027340F59003E3186 /* SelectedCoursesCell.swift */,
 			);
 			path = FinalIosExam;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386231FF273405A1003E3186 /* Course.swift in Sources */,
+				3862320127340F59003E3186 /* SelectedCoursesCell.swift in Sources */,
 				386231EF273404B7003E3186 /* ViewController.swift in Sources */,
 				386231EB273404B7003E3186 /* AppDelegate.swift in Sources */,
 				386231ED273404B7003E3186 /* SceneDelegate.swift in Sources */,
